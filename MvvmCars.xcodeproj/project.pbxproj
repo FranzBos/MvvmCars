@@ -14,6 +14,9 @@
 		137BE6391F164EB700DE762C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137BE6371F164EB700DE762C /* LaunchScreen.storyboard */; };
 		137BE6441F164EB800DE762C /* MvvmCarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BE6431F164EB800DE762C /* MvvmCarsTests.swift */; };
 		137BE64F1F164EB800DE762C /* MvvmCarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BE64E1F164EB800DE762C /* MvvmCarsUITests.swift */; };
+		137BE65D1F164EF800DE762C /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BE65C1F164EF800DE762C /* Car.swift */; };
+		137BE65F1F164FBC00DE762C /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BE65E1F164FBC00DE762C /* CarViewModel.swift */; };
+		137BE6611F16501F00DE762C /* CarViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BE6601F16501F00DE762C /* CarViewModelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		137BE64A1F164EB800DE762C /* MvvmCarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MvvmCarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		137BE64E1F164EB800DE762C /* MvvmCarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvvmCarsUITests.swift; sourceTree = "<group>"; };
 		137BE6501F164EB800DE762C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		137BE65C1F164EF800DE762C /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		137BE65E1F164FBC00DE762C /* CarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewModel.swift; sourceTree = "<group>"; };
+		137BE6601F16501F00DE762C /* CarViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,8 @@
 				137BE6351F164EB700DE762C /* Assets.xcassets */,
 				137BE6371F164EB700DE762C /* LaunchScreen.storyboard */,
 				137BE63A1F164EB700DE762C /* Info.plist */,
+				137BE65C1F164EF800DE762C /* Car.swift */,
+				137BE65E1F164FBC00DE762C /* CarViewModel.swift */,
 			);
 			path = MvvmCars;
 			sourceTree = "<group>";
@@ -112,6 +120,7 @@
 			children = (
 				137BE6431F164EB800DE762C /* MvvmCarsTests.swift */,
 				137BE6451F164EB800DE762C /* Info.plist */,
+				137BE6601F16501F00DE762C /* CarViewModelTest.swift */,
 			);
 			path = MvvmCarsTests;
 			sourceTree = "<group>";
@@ -258,6 +267,8 @@
 			files = (
 				137BE6311F164EB700DE762C /* ViewController.swift in Sources */,
 				137BE62F1F164EB700DE762C /* AppDelegate.swift in Sources */,
+				137BE65D1F164EF800DE762C /* Car.swift in Sources */,
+				137BE65F1F164FBC00DE762C /* CarViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				137BE6441F164EB800DE762C /* MvvmCarsTests.swift in Sources */,
+				137BE6611F16501F00DE762C /* CarViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8Q9X4Q56DX;
 				INFOPLIST_FILE = MvvmCars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.francescoboschini.MvvmCars;
@@ -432,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8Q9X4Q56DX;
 				INFOPLIST_FILE = MvvmCars/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.francescoboschini.MvvmCars;
