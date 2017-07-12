@@ -12,7 +12,6 @@
 		137BE6341F164EB700DE762C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137BE6321F164EB700DE762C /* Main.storyboard */; };
 		137BE6361F164EB700DE762C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137BE6351F164EB700DE762C /* Assets.xcassets */; };
 		137BE6391F164EB700DE762C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137BE6371F164EB700DE762C /* LaunchScreen.storyboard */; };
-		137BE6441F164EB800DE762C /* MvvmCarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BE6431F164EB800DE762C /* MvvmCarsTests.swift */; };
 		137BE64F1F164EB800DE762C /* MvvmCarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BE64E1F164EB800DE762C /* MvvmCarsUITests.swift */; };
 		137BE65D1F164EF800DE762C /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BE65C1F164EF800DE762C /* Car.swift */; };
 		137BE65F1F164FBC00DE762C /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BE65E1F164FBC00DE762C /* CarViewModel.swift */; };
@@ -45,7 +44,6 @@
 		137BE6381F164EB700DE762C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		137BE63A1F164EB700DE762C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		137BE63F1F164EB800DE762C /* MvvmCarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MvvmCarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		137BE6431F164EB800DE762C /* MvvmCarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvvmCarsTests.swift; sourceTree = "<group>"; };
 		137BE6451F164EB800DE762C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		137BE64A1F164EB800DE762C /* MvvmCarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MvvmCarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		137BE64E1F164EB800DE762C /* MvvmCarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MvvmCarsUITests.swift; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 		137BE6421F164EB800DE762C /* MvvmCarsTests */ = {
 			isa = PBXGroup;
 			children = (
-				137BE6431F164EB800DE762C /* MvvmCarsTests.swift */,
 				137BE6451F164EB800DE762C /* Info.plist */,
 				137BE6601F16501F00DE762C /* CarViewModelTest.swift */,
 			);
@@ -276,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				137BE6441F164EB800DE762C /* MvvmCarsTests.swift in Sources */,
 				137BE6611F16501F00DE762C /* CarViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,6 +528,7 @@
 				137BE6551F164EB800DE762C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		137BE6561F164EB800DE762C /* Build configuration list for PBXNativeTarget "MvvmCarsTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +537,7 @@
 				137BE6581F164EB800DE762C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		137BE6591F164EB800DE762C /* Build configuration list for PBXNativeTarget "MvvmCarsUITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +546,7 @@
 				137BE65B1F164EB800DE762C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
